@@ -39,6 +39,9 @@ header ul
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 100px;
+    top: -300px;
 }
 header ul li
 {
@@ -137,4 +140,8 @@ section img#mountains_front
     color: #fff;
 }
 
-
+.logo{
+    position: relative;
+    left: -200px;
+    top: -270px;
+}
