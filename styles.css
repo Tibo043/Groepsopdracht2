@@ -41,7 +41,7 @@ header ul
     align-items: center;
     position: relative;
     left: 100px;
-    top: -300px;
+    top: -100px;
 }
 header ul li
 {
@@ -142,6 +142,6 @@ section img#mountains_front
 
 .logo{
     position: relative;
-    left: -200px;
-    top: -270px;
+    left: -100px;
+    top: -50px;
 }
