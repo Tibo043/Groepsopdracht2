@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import
+url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
 {
     margin: 0;
@@ -11,7 +12,10 @@ body
 {
     min-height: 100vh;
     overflow: visible;
-    background: linear-gradient(#2b1055,#7597de);
+    background: linear-gradient(#2b1055,#1c0522);
+}
+.btr{
+    pointer-events: none;
 }
 header
 {
@@ -24,6 +28,12 @@ header
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
+}
+header div.a{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+
 }
 header .logo
 {
@@ -39,9 +49,6 @@ header ul
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 100px;
-    top: -100px;
 }
 header ul li
 {
@@ -139,9 +146,36 @@ section img#mountains_front
     font-size: 2;
     color: #fff;
 }
-
-.logo{
+.c{
     position: relative;
-    left: -100px;
-    top: -50px;
+    color: #fff;
+    padding: 100px;
+    font-size: 45px;
+    text-align: left;
+    background-image: url("./img/stars.png");
+    background-blend-mode: screen; 
+
 }
+.foto{
+    width: 1400px;
+    margin-top: 0;
+    position: relative;
+    margin-left: 0;
+    
+}
+.c p{
+    font-size: 20px;
+    color: #fff;
+}
+.b{
+
+    background-image: url("https://usercontent.one/wp/www.savetheravefestival.co.uk/wp-content/uploads/2020/11/img6.jpg");
+}
+.d{
+    font-size: 45px;
+    color: #fff;
+    position: relative;
+    padding: 100px;
+}
+
+
