@@ -151,9 +151,6 @@ section img#mountains_front
     padding: 100px;
     font-size: 45px;
     text-align: left;
-    background-image: url("./img/stars.png");
-    background-blend-mode: screen; 
-
 }
 .foto{
     width: 1400px;
@@ -176,7 +173,9 @@ section img#mountains_front
     position: relative;
     padding: 100px;
 }
-
-
+.d p{
+    font-size: 20px;
+    color: #fff;
+}
 
 
