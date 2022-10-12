@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact form</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <img src="unknown.png" id="logo">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="feesten.html" id="btr">Feesten</a></li>
+            <li><a href="teamuitjes.html" id="btr">Teamuitjes</a></li>
+            <li><a href="bootcamp.html">Bootcamps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="./img/stars.png" id="stars">
+        <img src="./img/moon.png" id="moon">
+        <img src="./img/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Rst-Events</h2>
+        <a href="#sec" id="btn">Over Ons</a>
+        <img src="./img/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Welkom Bij Rst-Events!</h2>
+        <p>Welkom bij ons evenementenbureau, Rst-events regelt al jou evenementen voor je, bij ons heb je vershillende keuzes voor jou event, zo kunt u bij ons jou feesten organiseren.
+           Wij zorgen ervoor dat uw feest een echte knaller word, maar feesten is niet het enigste wat wij organiseren, zo kunt u ook bootcamps organiseren bij ons, perfect voor de sporters onder ons
+           Ook doen wij kart events regelen voor bijvoorbeeld een kinderfeest etc.<br></br><br> Als dit wat is voor u, kunt u ons altijd een mailtje sturen via onze contact pagina, dan hopen wij jullie snel te zien!</br></p>
+    </div>
 
 
-<div class="container">
-    <h1>Contact</h1>
-    <form action="https://formsubmit.co/514256@vistacollege.nl" method="POST">
-    <input type="text" name="Name" placeholder="Full Name" required>
-    <input type="email" name="Email" placeholder="Email" required>
-    <input type="number" name="number" placeholder="number" required>
-    <select name="Continent">
-    <option>Afrika</option>
-    <option>Asia</option>
-    <option>Europe</option>
-    <option>North America</option>
-    <option>South America</option>
-    </select>
-    <textarea name="Message" placeholder="Message" required></textarea>
-    <button type="submit">Send</button>
-    </form>
-        </div>
-        
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header'); 
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.05 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+         })
+</script>
+<script>
+    let foto1 = document.getElementById('st');
+
+    window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        foto1.style.bottom = value * 0.25 + 'px';
+    })
+</script>
 </body>
 </html>
