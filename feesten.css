@@ -55,9 +55,10 @@ header ul li a.active
 }
 .content{
     text-align: center;
+    
 }
 .content h1{
-    font-size: 160px;
+    font-size: 120px;
     color: #fff;
     font-weight: 600; 
 }
@@ -76,16 +77,18 @@ header ul li a.active
     bottom: 0;
     z-index: -1;
 }
-.content h2{
+.content h1{
     text-align: left;
     color: #fff;
     margin-top: 10px;
+    text-shadow: 1px 1px;
+    
 }
 .content p{
     text-align: left;
     color: #fff;
 }
-.content h3{
+.content h1{
     text-align: left;
     color: #fff;
     font-size: 25px;

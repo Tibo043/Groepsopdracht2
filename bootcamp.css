@@ -5,7 +5,7 @@
     font-family: 'Poppins' , sans-serif;
 }
 .hero{
-    width: 100%;
+    width: 110%;
     height: 100vh;
     background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
     position: relative;
@@ -75,7 +75,7 @@ header ul li a.active
     bottom: 0;
     z-index: -1;
 }
-.content h2{
+.content h1{
     text-align: left;
     color: #fff;
     margin-top: 10px;
@@ -84,7 +84,7 @@ header ul li a.active
     text-align: left;
     color: #fff;
 }
-.content h3{
+.content h1{
     text-align: left;
     color: #fff;
     font-size: 25px;
@@ -108,3 +108,4 @@ height: 120%;
 #logo{
     height: 100px;
 }
+
