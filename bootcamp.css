@@ -61,7 +61,7 @@ header ul li a.active
 .bc h1{
     font-size: 120px;
     color: #fff;
-    font-weight: 600; 
+    font-weight: 900; 
 }
 .bc a{
     text-decoration: none;
@@ -103,7 +103,7 @@ header ul li a.active
 
 .bootcamping video{
     width: 100%;
-    height: 114%; 
+    height: 120%; 
     z-index: -100px;
     position: fixed;
     text-align: center;
